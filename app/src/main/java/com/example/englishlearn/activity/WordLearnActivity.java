@@ -42,6 +42,7 @@ public class WordLearnActivity extends AppCompatActivity implements View.OnClick
         mBtListen.setOnClickListener(this);
         mBtLook = (Button) findViewById(R.id.bt_look);
         mBtLook.setOnClickListener(this);
+
     }
 
     @Override
