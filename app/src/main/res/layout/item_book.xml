@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="序号"
+        android:padding="5dp"
+
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="书名"
+        android:padding="5dp"
+
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="作者"
+
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="简介"
+        android:padding="5dp"
+        android:maxEms="6"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+</LinearLayout>
